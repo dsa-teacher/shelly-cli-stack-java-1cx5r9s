@@ -1,0 +1,31 @@
+{
+  "moduleId": "stack",
+  "summary": "1/5 tests passed",
+  "pass": false,
+  "cases": [
+    {
+      "subchallengeId": "create-class",
+      "passed": true
+    },
+    {
+      "subchallengeId": "push",
+      "passed": false,
+      "message": "Size should be 1 after one push \u003d\u003d\u003e expected: \u003c1\u003e but was: \u003c0\u003e"
+    },
+    {
+      "subchallengeId": "pop",
+      "passed": false,
+      "message": "Pop should return 20 \u003d\u003d\u003e expected: \u003c20\u003e but was: \u003cnull\u003e"
+    },
+    {
+      "subchallengeId": "peek",
+      "passed": false,
+      "message": "Peek should return 20 \u003d\u003d\u003e expected: \u003c20\u003e but was: \u003cnull\u003e"
+    },
+    {
+      "subchallengeId": "size",
+      "passed": false,
+      "message": "Size should be 1 after push \u003d\u003d\u003e expected: \u003c1\u003e but was: \u003c0\u003e"
+    }
+  ]
+}
